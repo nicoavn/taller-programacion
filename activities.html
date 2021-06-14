@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Actividades</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/node_modules/lightgallery.js/dist/css/lightgallery.css">
+  <!-- or the reference on CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+</head>
+
+<body>
+<!-- Add your site or application content here -->
+
+<header>
+  <div class="container">
+    <div id="logo-container">
+      <img id="logo" src="/img/logo.jpg" alt="Logo">
+    </div>
+
+    <div class="menu">
+      <a href="/index.html">Inicio</a>
+      <a href="/about-us.html">Nosotros</a>
+      <a href="/news.html">Noticias</a>
+      <a href="/activities.html">Actividades</a>
+    </div>
+
+    <p id="intro">
+      Somos una Institución Educativa Cristiana cuya visión es levantar una generación de líderes íntegros, formados bajo los principios de la verdad de Dios
+    </p>
+
+    <div class="form-container">
+      <h2>Formulario de registro de actividades</h2>
+
+      <form action="">
+        <div>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div>
+          <label for="date">Fecha:</label>
+          <input type="datetime-local" id="date" name="date">
+        </div>
+        <div>
+          <label for="place">Lugar:</label>
+          <input type="text" id="place" name="place">
+        </div>
+        <div>
+          <label for="duration">Duración (min):</label>
+          <input type="number" id="duration" name="duration" min="1">
+        </div>
+        <div>
+          <label for="host">Anfitrión:</label>
+          <input type="text" id="host" name="host">
+        </div>
+        <div class="buttons-container">
+          <button type="submit">
+            Guardar
+          </button>
+          <button type="reset">
+            Limpiar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</header>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script src="/node_modules/lightgallery.js/dist/js/lightgallery.min.js"></script>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
