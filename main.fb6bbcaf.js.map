@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/main.js"],"names":["lightGallery","document","getElementById","Splide","mount"],"mappings":"AAAAA,YAAY,CAACC,QAAQ,CAACC,cAAT,CAAwB,cAAxB,CAAD,CAAZ;AACA,IAAIC,MAAJ,CAAY,SAAZ,EAAwBC,KAAxB","file":"main.fb6bbcaf.js","sourceRoot":"..","sourcesContent":["lightGallery(document.getElementById('lightgallery'));\r\nnew Splide( '.splide' ).mount();\r\n"]}
