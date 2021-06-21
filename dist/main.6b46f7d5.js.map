@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/main.js"],"names":["lightGallery","document","getElementById","Splide","mount"],"mappings":";AAAAA,aAAaC,SAASC,eAAe,iBACrC,IAAIC,OAAQ,WAAYC","file":"main.6b46f7d5.js","sourceRoot":"..","sourcesContent":["lightGallery(document.getElementById('lightgallery'));\r\nnew Splide( '.splide' ).mount();\r\n"]}
